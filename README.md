@@ -128,4 +128,116 @@ Dans cet exercice vous devez créer les variables suivantes :
 - Convertir la chaîne contenue dans txt en nombre avec parseInt() et mettre le résultat dans tmp
 - Ajouter à num le contenu de tmp
 
-Pratice online :[Codingame](https://www.codingame.com/playgrounds/28439/exercices/javascript---les-variables)
+Pratice online : [Codingame_Variables](https://www.codingame.com/playgrounds/28439/exercices/javascript---les-variables)
+
+# Partie 3 : Conditions
+## Test simple 
+Demander à l’utilisateur de saisir son âge. S’il a plus de 18 ans, afficher " Vous êtes majeur ". Sinon afficher " Vous êtes mineur ".
+
+## Test sur la longueur d'une chaîne de caractères
+Ecrivez un script qui :
+- prend une chaîne de caractères comme argument
+- renvoie vrai si la longueur de la chaîne dépasse 10 caractères
+- renvoie faux dans les autres cas
+💡 Utilisez str.length pour connaitre la taille chaîne de caractères str
+
+## Test sur le type des paramètres
+Reprenez la fonction myFct du chapitre précédent et complétez là pour qu'elle renvoie -999999999 si un argument n'est pas un nombre
+
+- 💡 Utilisez typeof( varia ) pour connaitre le type de la variable varia. Si varia est un nombre typeof retourne la chaîne de caractère "number".
+- 💡 Vous pouvez tester si deux conditions sont vraies simultanément avec un AND logique (condition1 ET condition2) comme ceci : ( test1 && test2 ).
+- 💡 Vous pouvez tester si l'une OU l'autre des conditions sont vraies avec un OR logique (condition1 OU condition2) comme ceci : ( test1 || test2 ).
+
+## Tests imbriqués
+Créez un script qui :
+- prend une note sur 20 en argument
+- renvoie Hideux si la note est entre 0 et 7 exclus
+- renvoie Moche si la note entre 7 et 10 exclus
+- renvoie Nice si la note entre 10 et 15 exclus
+- renvoie GG si la note entre 15 et 20 inclus
+- renvoie BUG si la note n'est pas correcte
+
+Pratice online : [Codingame_Conditions](https://www.codingame.com/playgrounds/28439/exercices/javascript---les-tests-conditionnels)
+
+# Partie 4 : Boucles
+
+Pour rappel, nous pouvons utiliser les boucles suivantes en JavaScript :
+- La boucle while ;
+- La boucle do… while ;
+- La boucle for ;
+- La boucle for… in ;
+- La boucle for… of ;
+- La boucle for await… of. 
+
+Voici un script JS d'une boucle *while*. Que va afficher cette boucle ?
+```var number = 1;
+while (number < 10) {
+    number++;
+}
+alert(number);
+```
+
+Voici un autre script JS d'une boucle while. Que va afficher cette boucle ?
+```var compteur = 1 ;
+do {
+   compteur++ ;
+   alert(compteur) ;
+}
+while (compteur<1);
+```
+
+Voici encore un script JS d'une boucle while. Que va afficher cette boucle ?
+```var compteur = 1 ;
+while (compteur<1) {
+   compteur++ ;
+   alert(compteur) ;
+};
+```
+## Boucle for
+Dans le fichier ***"script.js"*** :
+- déclarez la variable `br` qui contiendra un retour à la ligne (la balise html `<br>`);
+- créez une boucle `for` avec un itérateur `i` qui a la valeur 0;
+- la boucle doit s'exécuter tant que `ì` est strictement inférieur à 10;
+- à chaque fin de boucle, il faut incrémenter `i`;
+- la boucle doit afficher la valeur de `i` suivi du retour à la ligne `br` avec `document.write()`;
+
+## Boucle while avec itérateur
+l'objectif est d'utiliser une boucle while pour faire la même chose que dans l'exercice précédent.
+Dans le fichier ***"script.js"*** :
+- déclarez une variable `i` (pour itérateur) et affectez lui la valeur 0;
+- déclarez la variable br qui contiendra un retour à la ligne (la balise html);
+- créez une boucle `while`, voir l'astuce;
+- la boucle doit s'exécuter tant que `i` est inférieur ou égal à 10;
+- à chaque itération, vous afficherez `i` suivi d'un retour de ligne directement avec `document.write();`;
+
+## Boucle while sans itérateur
+l'objectif est de faire en sorte que la condition ne soit plus vérifiée à un moment donné afin de sortir de la boucle.
+Dans le fichier ***"script.js"*** :
+- déclarez les variables `text, result et check`;
+- `text` doit être une chaîne vide;
+- créez une boucle `while` qui doit s'exécuter tant que `check` est vérifiée;
+- la boucle doit demander à l'utilisateur de rentrer du texte `(prompt())` et de le stocker dans `result`;
+- la boucle doit ensuite vérifier si `result` contient bien du texte (donc si elle est vérifiée);
+- si oui, il faut concaténer `result` à `text`;
+- sinon on change la valeur de `check` à `false`, ainsi on sortira de la boucle;
+- attribuez à `check` un booléen avec la valeur `true` (avant la boucle).
+
+## Boucle avec break
+Cet exercice est le même que le précédent, à la différence que pour sortir de la boucle vous allez utiliser `break`.
+Dans le fichier ***"script.js"*** :
+- déclarez les variables `text, result et check`;
+- `text` doit être une chaîne vide et `check` un booléen avec la valeur `true`;
+- créez une boucle `while` qui doit s'exécuter tant que `check` est vérifiée;
+- la boucle doit demander à l'utilisateur de rentrer du texte (`prompt()`) et de le stocker dans `result`;
+- la boucle doit ensuite vérifier **si** `result` contient bien du texte (donc si elle est vérifiée);
+- si oui, il faut **concaténer** `result` à `text`;
+- **sinon** utilisez `break`, ainsi on sortira de la boucle;
+
+## Boucle avec continue
+Soit trois variables : `i` qui vaut `0` , `j` qui contient un nombre et `limit` qui contient un nombre.
+Dans le fichier ***"script.js"*** :
+- créez une boucle `while` qui doit s'exécuter tant que `i` est strictement inférieure à `limit`;
+- dans la boucle, incrémentez `i` pour chaque itération;
+- ajoutez une condition `if` qui exécutera `continue` si `ì` est strictement inférieur à `limit` divisé par 2;
+- après la condition, incrémentez `j`;
+
