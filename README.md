@@ -241,3 +241,48 @@ Dans le fichier ***"script.js"*** :
 - ajoutez une condition `if` qui exécutera `continue` si `ì` est strictement inférieur à `limit` divisé par 2;
 - après la condition, incrémentez `j`;
 
+Pratice online : [3W_Boucles](https://apprendre-html.3wa.fr/javascript/structures-controle/boucles-javascript/boucle-for)
+
+# Partie 5 : Fonctions
+## Fonction sans argument
+Dans cet exercice vous devez créer une fonction nommée isoNum qui renvoie le nombre 42
+
+## Fonction avec arguments
+Créez maintenant une fonction nommée myFct qui :
+- prend 2 arguments (arg1 et arg2)
+- renvoie comme résultat : arg1.arg2 + arg1 + arg2
+
+Pratice online : [Codingame_Fonctions](https://www.codingame.com/playgrounds/28439/exercices/javascript---les-fonctions)
+
+# Partie 6 : Tableaux
+## Création d'un tableau
+Créez un tableau qui se nomme tablo et qui contient 1, 2 et 3
+
+## Accédez aux données d'un tableau et les modifier
+- Reprenez **tablo** qui contient 1, 2 et 3 de l'exercice précédent
+- Accédez au 2ème élément du tableau **tablo** et rangez la valeur dans une variable nommée **item**
+- Remplacez le 2ème élément du tableau par le nombre 5
+
+## Ajoutez des données au tableau
+- Reprenez **tablo** qui contient 1, 2 et 3 de l'exercice précédent
+- Ajoutez une ligne de code qui ajoute la valeur 13 à la fin du tableau
+- Ajoutez une autre ligne de code qui ajoute la valeur 14 à la fin du tableau
+
+Pratice online : [Codingame_Tableaux](https://www.codingame.com/playgrounds/28439/exercices/javascript---les-tableaux)
+
+# Partie 7 : Objets
+## La carte de recette
+- Créez un objet pour contenir des informations sur votre recette préférée. Il doit avoir des propriétés pour `title` (une chaîne), `servings` (un nombre) et `ingredients` (un tableau de chaînes).
+- Sur des lignes distinctes (une `console.log` instruction pour chacune), enregistrez les informations sur la recette pour qu'elles ressemblent à:
+  - Môle
+  - Pour: 2 personnes
+  - Ingrédients:
+  - cannelle
+  - cumin
+  - cacao
+  
+## La liste de lecture
+Gardez une trace des livres que vous lisez et des livres que vous souhaitez lire!
+- Créez un tableau d'objets, où chaque objet décrit un livre et possède des propriétés pour `title` (une chaîne), `author` (une chaîne) et `alreadyRead` (un booléen indiquant si vous l'avez déjà lu).
+- Parcourez la gamme de livres. Pour chaque livre, enregistrez le titre du livre et l'auteur du livre comme ceci: "Le Hobbit par JRR Tolkien".
+- Utilisez maintenant une instruction `if / else` pour modifier la sortie selon que vous l'avez encore lue ou non. `Si` vous le lisez, enregistrez une chaîne comme **«Vous avez déjà lu« Le Hobbit »de JRR Tolkien»**, et `sinon`, enregistrez une chaîne comme **«Vous devez toujours lire« Le Seigneur des anneaux »de JRR Tolkien»**.
