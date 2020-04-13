@@ -13,6 +13,15 @@ Travail individuel
 # Livrable :
 Un lien github
 
+# Sommaire:
+1. [Partie 1 : Comment écrire, afficher... SORTIR l'information ?](https://github.com/imanegannaoui/JavaScript_Exercices#partie-1--comment-%C3%A9crire-afficher-sortir-linformation-)
+2. [Partie 2 : Variables](https://github.com/imanegannaoui/JavaScript_Exercices#partie-2--variables)
+3. [Partie 3 : Conditions](https://github.com/imanegannaoui/JavaScript_Exercices#partie-3--conditions)
+4. [Partie 4 : Boucles](https://github.com/imanegannaoui/JavaScript_Exercices#partie-4--boucles)
+5. [Partie 5 : Fonctions](https://github.com/imanegannaoui/JavaScript_Exercices#partie-5--fonctions)
+6. [Partie 6 : Tableaux](https://github.com/imanegannaoui/JavaScript_Exercices#partie-6--tableaux)
+7. [Partie 7 : Objets](https://github.com/imanegannaoui/JavaScript_Exercices#partie-7--objets)
+
 # Partie 1 : Comment écrire, afficher... SORTIR l'information ?
 > Sortie_1 : Un des premiers soucis du programmeur est la communication avec la machine.
 ```
