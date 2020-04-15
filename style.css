@@ -2,6 +2,9 @@
 *{
     margin: 0 auto;
 }
+body{
+    background-color: beige;
+}
 .main {
     display: flex;
     padding: 2em;
