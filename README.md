@@ -3,14 +3,19 @@ Ce défi est tout à fait unique, de sorte que nous utiliserons des méthodes de
 - Partie 1 - Trouver tous les utilisateurs de plus de 24 ans
 - Partie 2 - Trouvez l'âge total de tous les utilisateurs
 - Partie 3 - Liste de toutes les codeuses féminines
+
 Dans le deuxième tableau:
+
 - Partie 1 - Liste de tous les utilisateurs aux États-Unis par ordre croissant
 - Partie 2 - Trier tous les utilisateurs par âge
 - Partie 3 - Liste de toutes les codeuses féminines
+
 Dans le troisième tableau:
+
 - Partie 1 - Trouvez l'âge total des codeurs masculins de moins de 25 ans
 - Partie 2 - Liste de tous les codeurs masculins de plus de 30 ans
 - Partie 3 - Trouvez l'âge total de tout le monde dans les texass, newieyork et vegzas combinés.
+
 Complétez ces problèmes en utilisant n'importe quelle méthode de tableau de la meilleure façon possible. Les méthodes utiles comprennent:
 - ```.map()```
 - ```.filter()```
@@ -18,6 +23,7 @@ Complétez ces problèmes en utilisant n'importe quelle méthode de tableau de l
 - ```.replace()```
 - ```.reduce()```
 - ```forEach()```
+
 Notez que vous pouvez écrire vos résultats dans le DOM ou même vous connecter à la console, selon ce qui vous convient.
 
 # Exigence
@@ -30,7 +36,7 @@ Ce défi peut être complété en utilisant n'importe quelle technique ou métho
 - Choisissez les bonnes méthodes et alternatives pour analyser les données dans un tableau.
  
 # Ressources
-Pour commencer rapidement, un code de base contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
+Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/edit/Challenge/README.md) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
 Fourchez ce code de base pour commencer
  
  
