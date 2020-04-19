@@ -24,7 +24,7 @@ Complétez ces problèmes en utilisant n'importe quelle méthode de tableau de l
 - ```.reduce()```
 - ```forEach()```
 
-Notez que vous pouvez écrire vos résultats dans le DOM ou même vous connecter à la console, selon ce qui vous convient.
+***Notez que vous pouvez écrire vos résultats dans le DOM ou même vous connecter à la console, selon ce qui vous convient.***
 
 # Exigence
 Ce défi peut être complété en utilisant n'importe quelle technique ou méthode. Cependant, essayez de résoudre complètement chaque partie en aussi peu de lignes que possible en utilisant des fonctions.
@@ -36,7 +36,7 @@ Ce défi peut être complété en utilisant n'importe quelle technique ou métho
 - Choisissez les bonnes méthodes et alternatives pour analyser les données dans un tableau.
  
 # Ressources
-Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/edit/Challenge/README.md) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
+Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/edit/Challenge) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
 Fourchez ce code de base pour commencer
  
  
