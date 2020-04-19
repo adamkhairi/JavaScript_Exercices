@@ -36,7 +36,7 @@ Ce défi peut être complété en utilisant n'importe quelle technique ou métho
 - Choisissez les bonnes méthodes et alternatives pour analyser les données dans un tableau.
  
 # Ressources
-Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/Challenge) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
+Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/tree/Challenge) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
 Fourchez ce code de base pour commencer
  
  
